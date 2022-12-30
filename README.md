@@ -5,7 +5,7 @@ Feature Transformation
   Convert features for each row into a vector of numbers creating a matrix for the entire dataset (all rows). Matrix representation of all training data enables much     more efficient implementation of ML algorithms.
   Utilized StringIndexer function to convert string feature and class label into double.
   Utilized VectorAssembler function to convert selected features into a vector of numbers.
-  Decision Tree Learning
+  Then Decision Tree Learning is conducted.
   Convert indexed predictions to the class label using IndexToString function to compare and calculate F1-score.
   Combined all these steps into a pipeline.
 
